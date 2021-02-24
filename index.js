@@ -54,7 +54,7 @@ client.on("message", async message => {
         }}).then((msg ) =>{
             let embed = new Discord.MessageEmbed()
             .setTitle(getRandomLine())
-            .setDescription("command made by auth with help of nerox (psst its skidded hehe)")
+            .setDescription("auth")
             .setColor(545995)
             msg.edit(embed)
             setTimeout(function () {
