@@ -50,7 +50,7 @@ client.on("message", async message => {
         message.author.send({embed: {
             color: 545995,
             title: "reading...",
-            description: 'made by auth (psst its skidded hehe)'
+            description: 'made by auth'
         }}).then((msg ) =>{
             let embed = new Discord.MessageEmbed()
             .setTitle(getRandomLine())
